@@ -1,13 +1,13 @@
 fn fizzbuzz(n: Int) -> Unit {
   for i = 0; i < n; i = i + 1 {
       if i % 3 == 0 && i % 5 == 0 {
-          trace("FizzBuzz");
+          println("FizzBuzz");
       } else if i % 3 == 0 {
-          trace("Fizz");
+          println("Fizz");
       } else if i % 5 == 0 {
-          trace("Buzz");
+          println("Buzz");
       } else {
-          trace_int(i);
+          println(i);
       }
   }
 }
@@ -15,6 +15,3 @@ fn fizzbuzz(n: Int) -> Unit {
 fn main {
   fizzbuzz(100);
 }
-
-fn trace(x: String) -> Unit = "%trace"
-fn trace_int(x: Int) -> Unit = "%trace"
