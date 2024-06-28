@@ -19,7 +19,7 @@ Open your chrome browser, then you can use devtools to debug.
 
 1. Set breakpoints on `main.mbt` file.
 2. Open JavaScript Debug Terminal.
-3. Run `moon run . --target js --debug`.
+3. Run `moon run . --target js --debug`. Remember to replace `.` to the path to your main package.
 
 #### Approach 2
 
